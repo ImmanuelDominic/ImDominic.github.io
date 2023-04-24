@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;   
+}
+body {
+    font-family: Verdana;
+    background-color: rgb(5, 3, 68);
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: url("../images/pngwing.com.png");
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+}
+
+#footer-logo {
+    text-align: center;
+}
+
+.content-heading1 {
+    color: black;
+    padding: 100px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.content-heading1-centered {
+    color: white;
+    padding: 100px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.content-heading2 {
+    color: #fdd521;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content-paragraph {
+    color: black;
+    padding: 100px;
+    padding-top: 20px;
+    text-justify: auto;
+}
+
+.intro-title {
+    color: transparent;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+#content-about {
+    color: white;
+}
+
+#content-pricing {
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.content-pricing-text {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+  /* Two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 600px;
+  }
+
+  .left {
+    width: 35%;
+    background-color: blanchedalmond;
+    background-image: url(../images/china-ink-wash-painting-bamboo-chinese-bamboo-ink-material-in-spring-3f3a1aa0db641a0a3be0d8d72118e9af.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }
+  
+  .right {
+    width: 65%;
+    background: rgba(0, 0, 0, 0.74);
+    /*filter: blur(8px);
+    -webkit-filter: blur(8px); bg image blur*/
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
