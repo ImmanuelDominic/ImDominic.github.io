@@ -17,6 +17,8 @@ body {
 .footer{
     background-color: black;
     text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #footer-logo {
@@ -83,10 +85,9 @@ body {
 
   .left {
     width: 35%;
-    background-color: blanchedalmond;
-    background-image: url(../images/china-ink-wash-painting-bamboo-chinese-bamboo-ink-material-in-spring-3f3a1aa0db641a0a3be0d8d72118e9af.png);
-    background-position: right;
-    background-size: contain;
+    background: rgba(255, 255, 255, 0.74);
+    background-image: url(../images/pngegg.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
   }
