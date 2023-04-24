@@ -1,5 +1,10 @@
 ol,ul {
 	list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 li {
@@ -14,8 +19,6 @@ li:last-child {
 .navbar-dark {
     display:block;
 	float:center;
-	margin-left:2px;
-    overflow: hidden;
 }
 
 .navbar-dark a:hover {
@@ -33,14 +36,9 @@ li:last-child {
     padding: 20px;
 }
 
-.nav-item-button {
-    padding: 20px;
-    float: right;
-}ç
-
 .nav-item-logo {
-    padding: 20px;
-    float: left;
+   background-color: transparent;
+   padding: 20px;
 }
 
 .button-appointment{
@@ -58,3 +56,4 @@ li:last-child {
     background-color: rgb(12, 12, 75);
     color: white;
 }
+
